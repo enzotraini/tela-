@@ -1,0 +1,6 @@
+{
+  "name": "BlackCar Locadora de Veículos",
+  "description": "Plataforma premium de gestão e pagamentos de locação de veículos BlackCar com experiência PWA mobile-first.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

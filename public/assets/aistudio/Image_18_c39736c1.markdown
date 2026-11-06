@@ -1,0 +1,214 @@
+---
+name: Obsidian Velocity
+colors:
+  surface: '#121315'
+  surface-dim: '#121315'
+  surface-bright: '#38393b'
+  surface-container-lowest: '#0d0e10'
+  surface-container-low: '#1b1c1e'
+  surface-container: '#1f2022'
+  surface-container-high: '#292a2c'
+  surface-container-highest: '#343537'
+  on-surface: '#e3e2e5'
+  on-surface-variant: '#c6c9ae'
+  inverse-surface: '#e3e2e5'
+  inverse-on-surface: '#303033'
+  outline: '#90937b'
+  outline-variant: '#454934'
+  surface-tint: '#b4d418'
+  primary: '#ffffff'
+  on-primary: '#2b3400'
+  primary-container: '#d0f03b'
+  on-primary-container: '#5a6b00'
+  inverse-primary: '#556500'
+  secondary: '#c6c6c7'
+  on-secondary: '#2f3131'
+  secondary-container: '#454747'
+  on-secondary-container: '#b4b5b5'
+  tertiary: '#ffffff'
+  on-tertiary: '#2a303d'
+  tertiary-container: '#dde2f3'
+  on-tertiary-container: '#5e6473'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#d0f03b'
+  primary-fixed-dim: '#b4d418'
+  on-primary-fixed: '#181e00'
+  on-primary-fixed-variant: '#3f4c00'
+  secondary-fixed: '#e2e2e2'
+  secondary-fixed-dim: '#c6c6c7'
+  on-secondary-fixed: '#1a1c1c'
+  on-secondary-fixed-variant: '#454747'
+  tertiary-fixed: '#dde2f3'
+  tertiary-fixed-dim: '#c1c6d7'
+  on-tertiary-fixed: '#151c28'
+  on-tertiary-fixed-variant: '#414754'
+  background: '#121315'
+  on-background: '#e3e2e5'
+  surface-variant: '#343537'
+  surface-base: '#0B0C0E'
+  surface-raised: '#121316'
+  surface-card: '#181A1F'
+  surface-overlay: '#1F2228'
+  border-subtle: '#2A2E37'
+  border-muted: '#1F2228'
+  status-open-bg: '#12231A'
+  status-open-fg: '#4ADE80'
+  status-pending-bg: '#2A2415'
+  status-pending-fg: '#FACC15'
+  status-overdue-bg: '#2E1517'
+  status-overdue-fg: '#F87171'
+  status-paid-bg: '#141F2E'
+  status-paid-fg: '#60A5FA'
+typography:
+  headline-xl:
+    fontFamily: Geist
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: 40px
+    letterSpacing: -0.03em
+  headline-xl-mobile:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.025em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 28px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: -0.015em
+  headline-sm:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '500'
+    lineHeight: 20px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+    letterSpacing: 0em
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+    letterSpacing: 0.01em
+  label-numeric:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 22px
+    letterSpacing: -0.02em
+  label-badge:
+    fontFamily: Geist
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+  label-meta:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 0.75rem
+  gutter-desktop: 1.5rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+---
+
+## Brand & Style
+The design system embodies an ultra-minimalist, high-performance dark aesthetic engineered specifically for high-end automotive rental web applications and mobile-first PWAs. Drawing inspiration from modern precision frameworks (Inspora, Uiarc, BeUI), the tone is restrained, technical, and stealthy. 
+
+The aesthetic is grounded in absolute visual discipline: deep matte black voids, precision low-contrast boundaries, and razor-sharp typographic hierarchies. Rather than relying on skeuomorphism or loud decorative surfaces, it relies on strict proportions, disciplined micro-interactions, tactile mobile touch targets, and deliberate focal accents. The emotional response is one of effortless luxury, high-octane engineering reliability, and immediate transactional clarity.
+
+## Colors
+The palette is architected around a layered obsidian foundation. Pure surfaces progress from `surface-base` (`#0B0C0E`) through `surface-raised` (`#121316`) to `surface-card` (`#181A1F`), framing visual content without stark breaks. Outlines rely on a deliberate hairline value (`#2A2E37`).
+
+The primary chromatic element is an electric lime accent (`#D8F944`). This color is preserved strictly for terminal actions: primary booking conversions, thumb-activated bottom-bar triggers, and critical state progression. Secondary interfaces default to crisp monochrome tones: stark white (`#FFFFFF`) for headers and prominent vehicle specs, paired with structural slate grays (`#717786`) for metadata and micro-labels. Status badges utilize subdued, pastel-tinted chromatic tokens on deep, desaturated translucent backgrounds, preventing chromatic noise across vehicle catalogues and rental dashboards.
+
+## Typography
+Typographic rules strictly balance technical precision and glanceable mobile legibility:
+- **Display & Headlines:** Set in Geist for its razor-sharp geometric aperture, high x-height, and architectural neutrality.
+- **Body:** Rendered in Inter for frictionless paragraph readability, clear disambiguation of characters, and predictable vertical metrics.
+- **Tabular Figures & Currency:** All numeric financial outputs (e.g., `R$ 1.250,00`, mileage, duration) enforce OpenType tabular figures (`font-variant-numeric: tabular-nums`) using Geist to guarantee alignment across tabular reservation breakdowns.
+- **Date Badges & Sub-labels:** Formatted in uppercase or tracked lowercase (e.g., `03 nov`), applying `label-badge` with generous tracking to sustain high visibility even against dense dark cards.
+
+## Layout & Spacing
+The layout model is tailored for a mobile viewport baseline of 390px width (iPhone / modern mobile flagship scale), with seamless responsive expansion to tablet (768px) and desktop (1280px+).
+
+- **Mobile Rhythm (390px):** Single-column layout framed by a constant `margin` of 16px (`1rem`) and a strict 4-column micro-grid with 12px (`0.75rem`) gutters. Stacked content utilizes vertical element spacing governed by `space-sm` (8px), `space-md` (12px), and `space-lg` (16px).
+- **Desktop/Tablet Expansion:** Expands to an 8-column layout on tablet and a 12-column fixed grid (max-width 1200px) on desktop, shifting `margin-desktop` to 40px and `gutter-desktop` to 24px.
+- **Mobile Ergonomics:** The bottom 88px of the viewport is designated as an thumb-accessible floating dock for transactional navigation, vehicle booking summary, and conversion CTAs.
+
+## Elevation & Depth
+Elevation is expressed through tonal stepping and subtle boundary definition rather than ambient drop shadows:
+
+- **Level 0 (Canvas Base):** Grounded at `#0B0C0E`. Zero elevation, non-interactive floor.
+- **Level 1 (Surface Cards & Lists):** Grounded at `#181A1F` with a 1px uniform hairline border of `#2A2E37`. No blur or shadow; physical depth is derived entirely from value contrast.
+- **Level 2 (Interactive Floating Modules / Menus):** Grounded at `#1F2228` with a 1px border of `#2A2E37` and an ambient drop shadow: `0 8px 32px -4px rgba(0, 0, 0, 0.7)`.
+- **Level 3 (Modal Sheets & Floating Bottom Dock):** Grounded in translucent backdrop acrylics: `#121316` at 85% opacity, paired with `backdrop-filter: blur(20px)` and an upper hairline stroke of `rgba(255, 255, 255, 0.08)`. This creates separation over dynamic car galleries.
+
+## Shapes
+Geometry is disciplined, modern, and ergonomic:
+- **Cards & Enclosures:** Use standard radius tokens (12px to 16px) to frame vehicle photography, checkout summaries, and calendar selectors smoothly.
+- **Controls & Input Fields:** Standardized at 12px border-radius, maintaining structural alignment with card bounds.
+- **Interactive Badges & Meta Chips:** Fully rounded pills (`border-radius: 9999px`) to create clear geometric contrast against boxy vehicle spec cards.
+- **Stroke Widths:** Constrained strictly to 1px for element borders, dividers, and icon line weights, preserving an engineering-grade silhouette.
+
+## Components
+
+### Buttons
+- **Primary CTA:** Styled in `#D8F944` with deep black `#0B0C0E` typography at 600 weight. Minimum height of 48px to satisfy touch-target requirements. Active state triggers a subtle scale compression (`transform: scale(0.98)`).
+- **Secondary / Ghost Button:** Transparent background with a 1px border in `#2A2E37`, using `#FFFFFF` text. Hover or focus transitions border to `#717786`.
+- **Bottom Navigation Dock:** Floating translucent pill or pinned bottom sheet featuring the primary CTA alongside real-time calculated total (`label-numeric`).
+
+### Chips & Badges
+- **Status Badges (Open, Pending, Overdue, Paid):** Rendered as compact pill containers (height 24px) utilizing the respective desaturated background and saturated foreground tokens (e.g., `#12231A` background with `#4ADE80` text for Open/Active rentals).
+- **Date Badges:** Compact rectangular badges (height 28px, 6px radius) in `#1F2228` with `#FFFFFF` text, housing condensed date labels (e.g., `03 NOV`).
+
+### Vehicle Display Cards
+- High-contrast charcoal container (`#181A1F`), crisp border (`#2A2E37`), housing an edge-to-edge transparent car render.
+- Metrics grid: Tabular numbers showing specs (0-100 km/h, range, power) separated by thin dividers (`#1F2228`).
+- Price readout anchored to bottom-right: `label-numeric` formatting `R$ 1.250,00` accompanied by `/dia` in `body-sm` muted slate.
+
+### Input Fields & Selectors
+- Background: `#121316`. Border: 1px `#2A2E37`. Typography: `#FFFFFF`. Placeholder: `#717786`.
+- Focused state transitions border to white (`#FFFFFF`) with a 1px hairline glow (`rgba(255, 255, 255, 0.1)`). Minimum height of 48px with inner horizontal padding of 16px.
+
+### Checkboxes & Toggle Switches
+- Custom 20px squares or pill toggles. Unchecked: `#1F2228` with `#2A2E37` border. Checked: filled with primary electric accent (`#D8F944`), displaying a high-contrast black check mark or thumb.
+
+### Lists & Activity Rows
+- Grouped inside unified cards. Rows separated by 1px horizontal borders (`#1F2228`). Interactive rows feature chevron indicators rendered in `#717786` and touch-feedback ripple/surface brightening to `#1F2228`.

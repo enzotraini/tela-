@@ -1,0 +1,377 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_tab" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-fixed-variant": "#454747", "surface-overlay": "#1F2228", "primary-fixed": "#d0f03b", "outline-variant": "#454934", "inverse-on-surface": "#303033", "border-subtle": "#2A2E37", "on-primary-fixed": "#181e00", "tertiary-fixed-dim": "#c1c6d7", "primary-fixed-dim": "#b4d418", "error": "#ffb4ab", "on-background": "#e3e2e5", "on-error-container": "#ffdad6", "on-surface": "#e3e2e5", "surface-card": "#181A1F", "secondary-fixed-dim": "#c6c6c7", "surface-container-highest": "#343537", "on-primary": "#2b3400", "status-open-bg": "#12231A", "on-tertiary-container": "#5e6473", "background": "#121315", "on-error": "#690005", "border-muted": "#1F2228", "surface-bright": "#38393b", "inverse-primary": "#556500", "status-overdue-fg": "#F87171", "primary": "#ffffff", "surface-container-low": "#1b1c1e", "surface-container-high": "#292a2c", "secondary-container": "#454747", "surface-dim": "#121315", "on-primary-fixed-variant": "#3f4c00", "error-container": "#93000a", "on-tertiary-fixed-variant": "#414754", "on-secondary-fixed": "#1a1c1c", "on-tertiary-fixed": "#151c28", "on-primary-container": "#5a6b00", "surface-container-lowest": "#0d0e10", "secondary": "#c6c6c7", "inverse-surface": "#e3e2e5", "status-pending-fg": "#FACC15", "tertiary-container": "#dde2f3", "on-secondary-container": "#b4b5b5", "status-overdue-bg": "#2E1517", "status-paid-bg": "#141F2E", "surface": "#121315", "status-pending-bg": "#2A2415", "on-surface-variant": "#c6c9ae", "surface-base": "#0B0C0E", "status-open-fg": "#4ADE80", "on-tertiary": "#2a303d", "surface-variant": "#343537", "tertiary-fixed": "#dde2f3", "surface-container": "#1f2022", "on-secondary": "#2f3131", "outline": "#90937b", "surface-tint": "#b4d418", "secondary-fixed": "#e2e2e2", "status-paid-fg": "#60A5FA", "tertiary": "#ffffff", "surface-raised": "#121316", "primary-container": "#d0f03b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "2.5rem", "space-xl": "1.5rem", "gutter-desktop": "1.5rem", "space-sm": "0.5rem", "space-md": "0.75rem", "space-lg": "1rem", "margin": "1rem", "gutter": "0.75rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": ["Geist"], "label-numeric": ["Geist"], "label-badge": ["Geist"], "body-lg": ["Inter"], "headline-lg": ["Geist"], "headline-md": ["Geist"], "body-sm": ["Inter"], "label-meta": ["Inter"], "body-md": ["Inter"], "headline-xl": ["Geist"], "headline-xl-mobile": ["Geist"] }, "fontSize": { "headline-sm": ["16px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "label-numeric": ["18px", { "lineHeight": "22px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-badge": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-meta": ["11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-xl": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.025em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#0B0C0E;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface-base font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface-base/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="BLACKCAR Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WmT2MCDNba0vQHsnzZlviLAwwie6HyZGFkKc8-f_zabSluK8YDsGbv-00kFxZj6oPMQFxeScKxRF9wDnUSBOwFHe7_rh06F8mGc2CQRPLfOnY5W1Vi9wOiXE4fjCgC7hKTdFy2C172zOGOXr5dmFTjlBK0HczR0yZcCW8DqmkAYeE76xKple8iGWci5b69ev_grfbUGPESjwaIXYhtivWfeuL2rs7dI10BAfNv9PxO"><span class="text-headline-sm font-headline-sm uppercase tracking-wider text-primary hidden">BLACKCAR</span><h1 class="text-headline-sm font-headline-sm text-on-surface ml-space-xs">Owner Bills</h1></div><div class="flex items-center gap-space-md"><button class="min-h-[44px] min-w-[44px] px-space-sm flex items-center justify-center text-body-sm font-body-sm text-secondary hover:text-primary transition-colors" type="button"><span class="mr-space-xs material-symbols-outlined text-[18px]">logout</span><span class="">Sair</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface-base"><div class="flex flex-col w-full px-margin pb-space-xl">
+<!-- Status KPI Ticker Card -->
+<div class="mt-space-md mb-space-md p-space-md rounded-xl bg-surface-card flex items-center justify-between shadow-md">
+<div class="flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary-container">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+</div>
+<div>
+<p class="font-label-meta text-label-meta text-secondary uppercase tracking-wider">A Receber Total</p>
+<p class="font-label-numeric text-label-numeric text-on-surface">R$ 5.890,00</p>
+</div>
+</div>
+<div class="text-right">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-0.5 rounded-full bg-status-overdue-bg text-status-overdue-fg font-label-badge text-label-badge">
+<span class="w-1.5 h-1.5 rounded-full bg-status-overdue-fg animate-pulse"></span>
+        3 em atraso
+      </div>
+</div>
+</div>
+<!-- Segmented Control Navigation -->
+<div class="p-1 rounded-xl bg-surface-container flex gap-1 mb-space-lg select-none shadow-sm" role="tablist">
+<button aria-selected="true" class="flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all bg-surface-overlay text-on-surface shadow-sm flex items-center justify-center gap-space-xs" id="tab-open" onclick="switchBillingTab('open')" role="tab" type="button">
+<span class="">Abertas</span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-high text-primary font-label-badge text-label-badge" id="badge-open">8</span>
+</button>
+<button aria-selected="false" class="flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all text-secondary hover:text-on-surface flex items-center justify-center gap-space-xs" id="tab-overdue" onclick="switchBillingTab('overdue')" role="tab" type="button">
+<span class="">Atrasadas</span>
+<span class="px-space-xs py-0.5 rounded-full bg-status-overdue-bg text-status-overdue-fg font-label-badge text-label-badge" id="badge-overdue">3</span>
+</button>
+</div>
+<!-- Billing List Container -->
+<div class="flex flex-col gap-space-sm" id="billing-items-container">
+<!-- Item 1: Marcos Silva (Atrasada) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 650,00" data-category="overdue" data-client="Marcos Silva" data-contract="#1042" data-due="31 out" data-plate="BRA2E19" data-status-text="Atrasada há 3 dias" data-status-theme="overdue" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Marcos Silva</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">BRA2E19</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 650,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Venceu em 31 out</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-overdue-bg text-status-overdue-fg">
+          Atrasada há 3 dias
+        </span>
+</div>
+</div>
+<!-- Item 2: Juliana Mendes (Atrasada) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 700,00" data-category="overdue" data-client="Juliana Mendes" data-contract="#1038" data-due="28 out" data-plate="RQX9A44" data-status-text="Atrasada há 6 dias" data-status-theme="overdue" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Juliana Mendes</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">RQX9A44</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 700,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Venceu em 28 out</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-overdue-bg text-status-overdue-fg">
+          Atrasada
+        </span>
+</div>
+</div>
+<!-- Item 3: Rodrigo Fontana (Atrasada) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 600,00" data-category="overdue" data-client="Rodrigo Fontana" data-contract="#1031" data-due="25 out" data-plate="GHJ3F20" data-status-text="Atrasada há 9 dias" data-status-theme="overdue" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Rodrigo Fontana</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">GHJ3F20</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 600,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Venceu em 25 out</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-overdue-bg text-status-overdue-fg">
+          Atrasada
+        </span>
+</div>
+</div>
+<!-- Item 4: Carlos Eduardo (A vencer) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 550,00" data-category="open" data-client="Carlos Eduardo" data-contract="#1049" data-due="03 nov" data-plate="BXZ1J40" data-status-text="A vencer hoje" data-status-theme="pending" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Carlos Eduardo</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">BXZ1J40</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 550,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">schedule</span>
+<span class="font-body-sm text-body-sm">Vence em 03 nov</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-pending-bg text-status-pending-fg">
+          A vencer hoje
+        </span>
+</div>
+</div>
+<!-- Item 5: Mariana Costa (A vencer) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 580,00" data-category="open" data-client="Mariana Costa" data-contract="#1053" data-due="04 nov" data-plate="KLP9D12" data-status-text="A vencer em 1 dia" data-status-theme="open" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Mariana Costa</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">KLP9D12</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 580,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Vence em 04 nov</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-open-bg text-status-open-fg">
+          A vencer
+        </span>
+</div>
+</div>
+<!-- Item 6: Thiago Alencar (A vencer) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 820,00" data-category="open" data-client="Thiago Alencar" data-contract="#1057" data-due="06 nov" data-plate="JHR7B88" data-status-text="A vencer em 3 dias" data-status-theme="open" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Thiago Alencar</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">JHR7B88</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 820,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Vence em 06 nov</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-open-bg text-status-open-fg">
+          A vencer
+        </span>
+</div>
+</div>
+<!-- Item 7: Beatriz Nogueira (A vencer) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 990,00" data-category="open" data-client="Beatriz Nogueira" data-contract="#1061" data-due="07 nov" data-plate="FTY4E90" data-status-text="A vencer em 4 dias" data-status-theme="open" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Beatriz Nogueira</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">FTY4E90</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 990,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Vence em 07 nov</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-open-bg text-status-open-fg">
+          A vencer
+        </span>
+</div>
+</div>
+<!-- Item 8: Gabriel Prado (A vencer) -->
+<div class="billing-card cursor-pointer p-space-md rounded-xl bg-surface-card hover:bg-surface-overlay transition-all duration-200 active:scale-[0.99] shadow-sm flex flex-col gap-space-sm" data-amount="R$ 1.000,00" data-category="open" data-client="Gabriel Prado" data-contract="#1065" data-due="10 nov" data-plate="OPW1C33" data-status-text="A vencer em 7 dias" data-status-theme="open" onclick="openInvoiceDrawer(this)">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="font-headline-sm text-headline-sm text-on-surface truncate">Gabriel Prado</span>
+<span class="px-space-xs py-0.5 rounded bg-surface-container text-secondary font-label-badge text-label-badge tracking-wider font-mono">OPW1C33</span>
+</div>
+<div class="text-right">
+<span class="font-label-numeric text-label-numeric text-on-surface">R$ 1.000,00</span>
+</div>
+</div>
+<div class="flex items-center justify-between text-secondary">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[15px]">event</span>
+<span class="font-body-sm text-body-sm">Vence em 10 nov</span>
+</div>
+<span class="inline-flex items-center px-space-sm py-0.5 rounded-full font-label-badge text-label-badge bg-status-open-bg text-status-open-fg">
+          A vencer
+        </span>
+</div>
+</div>
+</div>
+<!-- Read-Only Detail Modal Backdrop & Drawer -->
+<div class="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm opacity-0 pointer-events-none transition-opacity duration-300" id="invoice-drawer-backdrop" onclick="closeInvoiceDrawer()"></div>
+<div class="fixed bottom-0 left-0 right-0 z-50 max-w-[390px] mx-auto transform translate-y-full transition-transform duration-300 ease-out" id="invoice-drawer">
+<div class="mx-space-sm mb-space-sm p-space-lg rounded-xl bg-surface-overlay shadow-2xl flex flex-col gap-space-md"><!-- Drag Bar Visual Cue -->
+<div class="w-12 h-1 bg-surface-container-highest rounded-full mx-auto mb-space-xs"></div>
+
+<!-- Drawer Header -->
+<div class="flex items-start justify-between">
+  <div>
+    <div class="flex items-center gap-space-xs mb-0.5">
+      <span class="font-label-meta text-label-meta uppercase tracking-wider text-secondary">Detalhes da Cobrança</span>
+      <span class="inline-flex items-center gap-1 px-space-xs py-0.5 rounded text-[11px] font-label-badge bg-surface-container text-secondary">
+        <span class="material-symbols-outlined text-[13px]">visibility</span>
+        Somente Leitura
+      </span>
+    </div>
+    <h2 class="font-headline-lg text-headline-lg text-on-surface mt-0.5" id="drawer-client">Marcos Silva</h2>
+  </div>
+  <button aria-label="Fechar gaveta" class="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-secondary hover:text-on-surface transition-colors cursor-pointer" onclick="closeInvoiceDrawer()" type="button">
+    <span class="material-symbols-outlined text-[18px]">close</span>
+  </button>
+</div>
+
+<!-- Detail Grid (Locatário, Veículo, Período, Vencimento) -->
+<div class="grid grid-cols-2 gap-space-sm bg-surface-card p-space-md rounded-lg shadow-sm">
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Contrato</span>
+    <span class="font-body-md text-body-md text-on-surface font-mono" id="drawer-contract">#1042</span>
+  </div>
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Veículo / Placa</span>
+    <span class="font-body-md text-body-md text-on-surface font-mono" id="drawer-plate">BRA2E19</span>
+  </div>
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Período de Locação</span>
+    <span class="font-body-md text-body-md text-on-surface" id="drawer-period">Semanal (24/10 - 31/10)</span>
+  </div>
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Vencimento</span>
+    <span class="font-body-md text-body-md text-on-surface" id="drawer-due">31 out</span>
+  </div>
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Contato / Suporte</span>
+    <span class="font-body-md text-body-md text-on-surface font-mono" id="drawer-phone">(11) 98***-**42</span>
+  </div>
+  <div>
+    <span class="font-label-meta text-label-meta text-secondary block">Status / Atraso</span>
+    <span class="inline-flex items-center px-space-xs py-0.5 rounded-full font-label-badge text-label-badge bg-status-overdue-bg text-status-overdue-fg mt-0.5" id="drawer-status">Atrasada há 3 dias</span>
+  </div>
+</div>
+
+<!-- Value Card -->
+<div class="flex items-center justify-between p-space-md bg-surface-container rounded-lg">
+  <div class="flex flex-col">
+    <span class="font-label-meta text-label-meta text-secondary uppercase tracking-wider">Valor da Cobrança</span>
+    <span class="font-body-sm text-body-sm text-secondary">Sem juros adicionais</span>
+  </div>
+  <span class="font-headline-lg text-headline-lg text-primary" id="drawer-amount">R$ 650,00</span>
+</div>
+
+<!-- Warning Notice (Somente leitura sem baixa manual) -->
+<div class="flex items-start gap-space-xs bg-surface-container-high/60 p-space-sm rounded-lg text-secondary border border-border-muted">
+  <span class="material-symbols-outlined text-[16px] text-primary-container mt-0.5">lock</span>
+  <p class="font-body-sm text-body-sm leading-tight text-secondary">
+    Cobrança vinculada à rotina automática. Baixas manuais desabilitadas para proprietários.
+  </p>
+</div>
+
+<!-- Action Close Button -->
+<button class="w-full py-space-sm px-space-md rounded-lg bg-surface-container hover:bg-surface-container-high text-on-surface font-headline-sm text-headline-sm transition-colors cursor-pointer flex items-center justify-center gap-space-xs" onclick="closeInvoiceDrawer()" type="button">
+  <span class="">Fechar</span>
+</button></div>
+</div>
+</div>
+<script>
+  let activeTab = 'open';
+
+  function switchBillingTab(tab) {
+    activeTab = tab;
+    const btnOpen = document.getElementById('tab-open');
+    const btnOverdue = document.getElementById('tab-overdue');
+    const items = document.querySelectorAll('.billing-card');
+
+    if (tab === 'open') {
+      btnOpen.className = 'flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all bg-surface-overlay text-on-surface shadow-sm flex items-center justify-center gap-space-xs';
+      btnOpen.setAttribute('aria-selected', 'true');
+      btnOverdue.className = 'flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all text-secondary hover:text-on-surface flex items-center justify-center gap-space-xs';
+      btnOverdue.setAttribute('aria-selected', 'false');
+
+      items.forEach(el => {
+        el.style.display = 'flex';
+      });
+    } else {
+      btnOverdue.className = 'flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all bg-surface-overlay text-on-surface shadow-sm flex items-center justify-center gap-space-xs';
+      btnOverdue.setAttribute('aria-selected', 'true');
+      btnOpen.className = 'flex-1 py-space-sm rounded-lg text-center font-headline-sm text-headline-sm transition-all text-secondary hover:text-on-surface flex items-center justify-center gap-space-xs';
+      btnOpen.setAttribute('aria-selected', 'false');
+
+      items.forEach(el => {
+        if (el.getAttribute('data-category') === 'overdue') {
+          el.style.display = 'flex';
+        } else {
+          el.style.display = 'none';
+        }
+      });
+    }
+  }
+
+  function openInvoiceDrawer(element) {
+    const client = element.getAttribute('data-client');
+    const plate = element.getAttribute('data-plate');
+    const contract = element.getAttribute('data-contract');
+    const due = element.getAttribute('data-due');
+    const amount = element.getAttribute('data-amount');
+    const statusText = element.getAttribute('data-status-text');
+    const statusTheme = element.getAttribute('data-status-theme');
+
+    document.getElementById('drawer-client').textContent = client;
+    document.getElementById('drawer-plate').textContent = plate;
+    document.getElementById('drawer-contract').textContent = contract;
+    document.getElementById('drawer-due').textContent = due;
+    document.getElementById('drawer-amount').textContent = amount;
+
+    const statusBadge = document.getElementById('drawer-status');
+    statusBadge.textContent = statusText;
+
+    if (statusTheme === 'overdue') {
+      statusBadge.className = 'inline-flex items-center px-space-xs py-0.5 rounded-full font-label-badge text-label-badge bg-status-overdue-bg text-status-overdue-fg mt-0.5';
+    } else if (statusTheme === 'pending') {
+      statusBadge.className = 'inline-flex items-center px-space-xs py-0.5 rounded-full font-label-badge text-label-badge bg-status-pending-bg text-status-pending-fg mt-0.5';
+    } else {
+      statusBadge.className = 'inline-flex items-center px-space-xs py-0.5 rounded-full font-label-badge text-label-badge bg-status-open-bg text-status-open-fg mt-0.5';
+    }
+
+    const backdrop = document.getElementById('invoice-drawer-backdrop');
+    const drawer = document.getElementById('invoice-drawer');
+
+    backdrop.classList.remove('opacity-0', 'pointer-events-none');
+    backdrop.classList.add('opacity-100');
+    drawer.classList.remove('translate-y-full');
+    drawer.classList.add('translate-y-0');
+  }
+
+  function closeInvoiceDrawer() {
+    const backdrop = document.getElementById('invoice-drawer-backdrop');
+    const drawer = document.getElementById('invoice-drawer');
+
+    backdrop.classList.remove('opacity-100');
+    backdrop.classList.add('opacity-0', 'pointer-events-none');
+    drawer.classList.remove('translate-y-0');
+    drawer.classList.add('translate-y-full');
+  }
+
+  // Ensure bottom navigation highlight adheres to requirement
+  document.addEventListener('DOMContentLoaded', () => {
+    const contasLink = document.querySelector('nav a[data-path="contas"]');
+    const inicioLink = document.querySelector('nav a[data-path="inicio"]');
+    if (contasLink) {
+      contasLink.classList.remove('text-secondary');
+      contasLink.classList.add('text-primary', 'bg-surface-overlay/80', 'font-medium');
+    }
+    if (inicioLink) {
+      inicioLink.classList.remove('text-primary', 'bg-surface-overlay/80', 'font-medium');
+      inicioLink.classList.add('text-secondary');
+    }
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-raised/85 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.6)]" data-active-classes="text-primary bg-surface-overlay/80 font-medium"><div class="flex justify-center items-center gap-space-lg h-16 px-margin max-w-[390px] mx-auto"><a class="flex-1 flex items-center justify-center gap-space-xs min-h-[44px] px-space-md py-space-xs rounded-full text-secondary hover:text-primary transition-all" data-path="inicio" href="#"><span class="material-symbols-outlined text-[20px]">home</span><span class="text-body-sm font-body-sm tracking-wide">Início</span></a><a class="flex-1 flex items-center justify-center gap-space-xs min-h-[44px] px-space-md py-space-xs rounded-full hover:text-primary transition-all text-primary bg-surface-overlay/80 font-medium" data-path="contas" href="#"><span class="material-symbols-outlined text-[20px]">account_balance_wallet</span><span class="text-body-sm font-body-sm tracking-wide">Contas</span></a></div></nav>
+
+</body></html>

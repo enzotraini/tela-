@@ -1,0 +1,224 @@
+<!DOCTYPE html><html class="dark" lang="pt-BR"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"><meta content="mobile_stack" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&amp;family=Inter:wght@100..900&amp;display=swap" rel="stylesheet"><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-fixed-variant": "#454747", "surface-overlay": "#1F2228", "primary-fixed": "#d0f03b", "outline-variant": "#454934", "inverse-on-surface": "#303033", "border-subtle": "#2A2E37", "on-primary-fixed": "#181e00", "tertiary-fixed-dim": "#c1c6d7", "primary-fixed-dim": "#b4d418", "error": "#ffb4ab", "on-background": "#e3e2e5", "on-error-container": "#ffdad6", "on-surface": "#e3e2e5", "surface-card": "#181A1F", "secondary-fixed-dim": "#c6c6c7", "surface-container-highest": "#343537", "on-primary": "#2b3400", "status-open-bg": "#12231A", "on-tertiary-container": "#5e6473", "background": "#121315", "on-error": "#690005", "border-muted": "#1F2228", "surface-bright": "#38393b", "inverse-primary": "#556500", "status-overdue-fg": "#F87171", "primary": "#ffffff", "surface-container-low": "#1b1c1e", "surface-container-high": "#292a2c", "secondary-container": "#454747", "surface-dim": "#121315", "on-primary-fixed-variant": "#3f4c00", "error-container": "#93000a", "on-tertiary-fixed-variant": "#414754", "on-secondary-fixed": "#1a1c1c", "on-tertiary-fixed": "#151c28", "on-primary-container": "#5a6b00", "surface-container-lowest": "#0d0e10", "secondary": "#c6c6c7", "inverse-surface": "#e3e2e5", "status-pending-fg": "#FACC15", "tertiary-container": "#dde2f3", "on-secondary-container": "#b4b5b5", "status-overdue-bg": "#2E1517", "status-paid-bg": "#141F2E", "surface": "#121315", "status-pending-bg": "#2A2415", "on-surface-variant": "#c6c9ae", "surface-base": "#0B0C0E", "status-open-fg": "#4ADE80", "on-tertiary": "#2a303d", "surface-variant": "#343537", "tertiary-fixed": "#dde2f3", "surface-container": "#1f2022", "on-secondary": "#2f3131", "outline": "#90937b", "surface-tint": "#b4d418", "secondary-fixed": "#e2e2e2", "status-paid-fg": "#60A5FA", "tertiary": "#ffffff", "surface-raised": "#121316", "primary-container": "#d0f03b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "2.5rem", "space-xl": "1.5rem", "gutter-desktop": "1.5rem", "space-sm": "0.5rem", "space-md": "0.75rem", "space-lg": "1rem", "margin": "1rem", "gutter": "0.75rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": ["Geist"], "label-numeric": ["Geist"], "label-badge": ["Geist"], "body-lg": ["Inter"], "headline-lg": ["Geist"], "headline-md": ["Geist"], "body-sm": ["Inter"], "label-meta": ["Inter"], "body-md": ["Inter"], "headline-xl": ["Geist"], "headline-xl-mobile": ["Geist"] }, "fontSize": { "headline-sm": ["16px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "label-numeric": ["18px", { "lineHeight": "22px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-badge": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-meta": ["11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-xl": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.025em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#0B0C0E;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface-base font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface-base/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button aria-label="Voltar" class="min-h-[44px] min-w-[44px] flex items-center justify-center text-primary -ml-space-sm transition-colors hover:text-secondary" onclick="history.back()"><span class="material-symbols-outlined text-[22px]">arrow_back</span></button><div class="flex items-center gap-space-xs"><img alt="BLACKCAR Logo" class="h-7 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WmT2MCDNba0vQHsnzZlviLAwwie6HyZGFkKc8-f_zabSluK8YDsGbv-00kFxZj6oPMQFxeScKxRF9wDnUSBOwFHe7_rh06F8mGc2CQRPLfOnY5W1Vi9wOiXE4fjCgC7hKTdFy2C172zOGOXr5dmFTjlBK0HczR0yZcCW8DqmkAYeE76xKple8iGWci5b69ev_grfbUGPESjwaIXYhtivWfeuL2rs7dI10BAfNv9PxO"><span class="text-secondary opacity-70">/</span><h1 class="text-headline-sm font-headline-sm text-on-surface">Pagamento</h1></div></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full pt-16 bg-surface-base pb-safe"><div class="flex flex-col w-full px-margin pb-28 space-y-space-md">
+<!-- Status Feedback Banner (Discreet Simulation State Selector) -->
+<div class="flex items-center justify-between bg-surface-container-high px-space-md py-space-xs rounded-full">
+<div class="flex items-center gap-space-xs min-w-0">
+<span class="w-2 h-2 rounded-full bg-status-open-fg animate-pulse" id="state-ping"></span>
+<span class="font-label-badge text-label-badge text-status-open-fg uppercase tracking-wider truncate" id="state-label">Código pronto</span>
+</div>
+<div class="flex items-center gap-1">
+<button aria-label="Simular Código Pronto" class="w-6 h-6 rounded-full bg-surface-overlay flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="setSimState('ready')">
+<span class="material-symbols-outlined text-[14px]">qr_code_2</span>
+</button>
+<button aria-label="Simular Carregamento" class="w-6 h-6 rounded-full bg-surface-overlay flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="setSimState('loading')">
+<span class="material-symbols-outlined text-[14px]">sync</span>
+</button>
+<button aria-label="Simular Falha" class="w-6 h-6 rounded-full bg-surface-overlay flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="setSimState('error')">
+<span class="material-symbols-outlined text-[14px]">error_outline</span>
+</button>
+<button aria-label="Simular Sucesso" class="w-6 h-6 rounded-full bg-surface-overlay flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="setSimState('paid')">
+<span class="material-symbols-outlined text-[14px]">verified</span>
+</button>
+</div>
+</div>
+<!-- 1. Resumo Fixo / Card Superior do Contrato -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-lg relative overflow-hidden">
+<div class="absolute -right-10 -top-10 w-32 h-32 bg-primary/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-start justify-between pb-space-md bg-surface-container-low/40 rounded-lg p-space-md">
+<div class="flex flex-col space-y-1">
+<span class="font-label-meta text-label-meta text-secondary uppercase tracking-wider">Locação Semanal</span>
+<div class="flex items-center gap-space-xs text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary">calendar_today</span>
+<span class="font-headline-sm text-headline-sm">01 nov – 08 nov</span>
+</div>
+</div>
+<div class="flex flex-col items-end space-y-1">
+<span class="font-label-meta text-label-meta text-secondary uppercase tracking-wider">Vencimento</span>
+<span class="bg-surface-overlay text-on-surface px-space-sm py-0.5 rounded font-label-badge text-label-badge text-status-pending-fg">03 NOV</span>
+</div>
+</div>
+<div class="flex items-end justify-between pt-space-md">
+<div class="flex flex-col">
+<span class="font-label-meta text-label-meta text-secondary mb-1">Veículo Alocado</span>
+<div class="flex items-center gap-space-xs bg-surface-overlay px-space-md py-1 rounded-lg">
+<span class="w-2 h-2 rounded-full bg-status-open-fg"></span>
+<span class="font-label-numeric text-label-numeric text-primary tracking-wider">BRA2E19</span>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<span class="font-label-meta text-label-meta text-secondary">Total a Pagar</span>
+<span class="font-headline-xl-mobile text-headline-xl-mobile text-primary tracking-tight">R$ 550,00</span>
+</div>
+</div>
+</div>
+<!-- 2. Bloco Central de Cobrança Pix -->
+<div class="bg-surface-card rounded-xl p-space-lg shadow-xl flex flex-col items-center text-center relative transition-all" id="pix-content-box">
+<!-- State 1: Código Pronto (Default) -->
+<div class="w-full flex flex-col items-center" id="view-ready">
+<!-- QR Code Container: Off-white ultra-contrast -->
+<div class="relative group my-space-xs">
+<div class="bg-secondary-fixed p-space-lg rounded-xl shadow-2xl flex flex-col items-center justify-center">
+<!-- Scalable Clean Crisp Pix QR Visual -->
+<svg class="w-48 h-48 text-surface-base" fill="currentColor" viewBox="0 0 160 160">
+<!-- Corner top-left -->
+<rect fill="currentColor" height="40" rx="4" width="40" x="10" y="10"></rect>
+<rect fill="#E2E2E2" height="24" rx="2" width="24" x="18" y="18"></rect>
+<rect fill="currentColor" height="12" width="12" x="24" y="24"></rect>
+<!-- Corner top-right -->
+<rect fill="currentColor" height="40" rx="4" width="40" x="110" y="10"></rect>
+<rect fill="#E2E2E2" height="24" rx="2" width="24" x="118" y="18"></rect>
+<rect fill="currentColor" height="12" width="12" x="124" y="24"></rect>
+<!-- Corner bottom-left -->
+<rect fill="currentColor" height="40" rx="4" width="40" x="10" y="110"></rect>
+<rect fill="#E2E2E2" height="24" rx="2" width="24" x="18" y="118"></rect>
+<rect fill="currentColor" height="12" width="12" x="24" y="124"></rect>
+<!-- Data modules cluster -->
+<rect fill="currentColor" height="20" width="8" x="60" y="15"></rect>
+<rect fill="currentColor" height="10" width="10" x="75" y="10"></rect>
+<rect fill="currentColor" height="25" width="10" x="90" y="25"></rect>
+<rect fill="currentColor" height="8" width="20" x="15" y="60"></rect>
+<rect fill="currentColor" height="15" width="10" x="25" y="75"></rect>
+<rect fill="currentColor" height="44" rx="4" width="44" x="58" y="58"></rect>
+<circle cx="80" cy="80" fill="#E2E2E2" r="14"></circle>
+<path d="M74 80 L78 84 L86 76" fill="none" stroke="#0B0C0E" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"></path>
+<rect fill="currentColor" height="10" width="30" x="115" y="60"></rect>
+<rect fill="currentColor" height="15" width="15" x="130" y="78"></rect>
+<rect fill="currentColor" height="30" width="12" x="60" y="115"></rect>
+<rect fill="currentColor" height="10" width="22" x="80" y="125"></rect>
+<rect fill="currentColor" height="18" width="18" x="115" y="115"></rect>
+<rect fill="currentColor" height="12" width="12" x="138" y="138"></rect>
+</svg>
+</div>
+<div class="absolute -bottom-2 bg-surface-base px-space-md py-0.5 rounded-full text-secondary font-label-badge text-label-badge shadow-md">
+          EXPIRA EM 29:45 MIN
+        </div>
+</div>
+<!-- Micro instructional tag -->
+<span class="font-body-sm text-body-sm text-secondary mt-space-md mb-space-sm">
+        Aponte a câmera do aplicativo do seu banco
+      </span>
+<!-- Copia e Cola Field -->
+<div class="w-full mt-space-xs flex flex-col space-y-space-xs">
+<div class="bg-surface-overlay rounded-lg px-space-md py-space-sm flex items-center justify-between w-full">
+<span class="font-body-sm text-body-sm text-secondary truncate text-left mr-2 select-all font-mono" id="pix-raw-code">
+            00020126580014br.gov.bcb.pix01362e19b-blackcar-locacao-88205204000053039865405550.005802BR5925BLACKCAR LOCADORA S/A6009SAO PAULO62070503***6304E819
+          </span>
+<span class="material-symbols-outlined text-[18px] text-secondary flex-shrink-0">vpn_key</span>
+</div>
+<button class="w-full bg-primary hover:bg-opacity-90 active:scale-[0.98] transition-all min-h-[48px] rounded-lg flex items-center justify-center gap-space-xs shadow-md" id="copy-btn" onclick="copyPixCode()"><span class="material-symbols-outlined text-[20px] text-on-primary transition-transform" id="copy-icon">content_copy</span><span class="font-headline-sm text-headline-sm text-on-primary" id="copy-text">Copiar código Pix</span></button>
+<div id="copy-toast" class="hidden items-center justify-center gap-1.5 py-1 px-space-sm rounded-full bg-status-open-bg text-status-open-fg font-label-badge text-label-badge transition-all animate-pulse"><span class="material-symbols-outlined text-[16px]">check_circle</span><span class="">Código Pix copiado para a área de transferência!</span></div></div>
+<!-- Human & Direct Reassurance Message -->
+<div class="mt-space-md bg-surface-container-low px-space-md py-space-sm rounded-lg flex items-center gap-space-sm text-left">
+<span class="material-symbols-outlined text-[22px] text-status-open-fg flex-shrink-0">bolt</span>
+<p class="font-body-sm text-body-sm text-on-surface">
+          O pagamento confirma sozinho quando o Pix cair. <span class="text-secondary">Não precisa enviar comprovante.</span>
+</p>
+</div>
+</div>
+<!-- State 2: Carregando código... (Hidden initially) -->
+<div class="hidden w-full flex flex-col items-center py-space-xl" id="view-loading">
+<div class="w-12 h-12 rounded-full border-4 border-surface-overlay border-t-primary animate-spin my-space-lg"></div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Gerando cobrança instantânea...</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-space-xs">Conectando ao Banco Central para emitir o QR Code Pix.</p>
+</div>
+<!-- State 3: Código indisponível (Hidden initially) -->
+<div class="hidden w-full flex flex-col items-center py-space-lg" id="view-error">
+<div class="w-14 h-14 rounded-full bg-status-overdue-bg flex items-center justify-center mb-space-md text-status-overdue-fg">
+<span class="material-symbols-outlined text-[32px]">sync_problem</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface">Código indisponível</h3>
+<p class="font-body-sm text-body-sm text-secondary mt-space-xs max-w-xs">
+        Houve uma oscilação na rede bancária ao requisitar a chave dinâmica do veículo BRA2E19.
+      </p>
+<button class="mt-space-lg bg-surface-overlay hover:bg-surface-bright text-on-surface min-h-[48px] px-space-xl rounded-lg font-headline-sm text-headline-sm flex items-center gap-space-xs transition-transform active:scale-95" onclick="setSimState('ready')">
+<span class="material-symbols-outlined text-[18px]">replay</span>
+        Tentar novamente
+      </button>
+</div>
+<!-- State 4: Pagamento reconhecido (Hidden initially) -->
+<div class="hidden w-full flex flex-col items-center py-space-lg" id="view-paid">
+<div class="w-16 h-16 rounded-full bg-status-open-bg flex items-center justify-center mb-space-md text-status-open-fg animate-bounce">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-primary">Pagamento Reconhecido!</h3>
+<p class="font-body-sm text-body-sm text-on-surface mt-space-xs max-w-xs">
+        Seu Pix de <strong class="text-primary">R$ 550,00</strong> foi compensado. Sua locação está garantida e o veículo liberado para o período 01 nov – 08 nov.
+      </p>
+<div class="w-full mt-space-lg bg-surface-container-low p-space-md rounded-lg flex items-center justify-between">
+<span class="font-label-meta text-label-meta text-secondary">Autenticação</span>
+<span class="font-label-badge text-label-badge text-primary">#BC8849-PX</span>
+</div>
+</div>
+</div>
+<!-- Informação de Segurança & Suporte -->
+<div class="flex items-center justify-center gap-space-xs text-secondary opacity-70">
+<span class="material-symbols-outlined text-[16px]">verified_user</span>
+<span class="font-label-meta text-label-meta tracking-wide">Ambiente de Liquidação 100% Criptografado</span>
+</div>
+</div>
+<script>
+  function copyPixCode() {
+    const codeElement = document.getElementById('pix-raw-code');
+    const btnText = document.getElementById('copy-text');
+    const btnIcon = document.getElementById('copy-icon');
+    const copyBtn = document.getElementById('copy-btn');
+    
+    if (codeElement) {
+      const code = codeElement.innerText.trim();
+      navigator.clipboard.writeText(code).then(() => {
+        // Visual Delight Micro-Feedback
+        btnText.innerText = 'Código copiado!';
+        btnIcon.innerText = 'check';
+        copyBtn.classList.add('bg-status-open-fg');
+        copyBtn.classList.remove('bg-primary');
+        
+        setTimeout(() => {
+          btnText.innerText = 'Copiar código Pix';
+          btnIcon.innerText = 'content_copy';
+          copyBtn.classList.remove('bg-status-open-fg');
+          copyBtn.classList.add('bg-primary');
+        }, 3000);
+      });
+    }
+  }
+
+  function setSimState(state) {
+    const states = ['ready', 'loading', 'error', 'paid'];
+    states.forEach(s => {
+      const el = document.getElementById('view-' + s);
+      if (el) el.classList.add('hidden');
+    });
+
+    const targetEl = document.getElementById('view-' + state);
+    if (targetEl) targetEl.classList.remove('hidden');
+
+    const label = document.getElementById('state-label');
+    const ping = document.getElementById('state-ping');
+
+    if (state === 'ready') {
+      label.innerText = 'Código pronto';
+      label.className = 'font-label-badge text-label-badge text-status-open-fg uppercase tracking-wider truncate';
+      ping.className = 'w-2 h-2 rounded-full bg-status-open-fg animate-pulse';
+    } else if (state === 'loading') {
+      label.innerText = 'Carregando código...';
+      label.className = 'font-label-badge text-label-badge text-status-pending-fg uppercase tracking-wider truncate';
+      ping.className = 'w-2 h-2 rounded-full bg-status-pending-fg animate-ping';
+    } else if (state === 'error') {
+      label.innerText = 'Código indisponível';
+      label.className = 'font-label-badge text-label-badge text-status-overdue-fg uppercase tracking-wider truncate';
+      ping.className = 'w-2 h-2 rounded-full bg-status-overdue-fg';
+    } else if (state === 'paid') {
+      label.innerText = 'Pagamento reconhecido';
+      label.className = 'font-label-badge text-label-badge text-status-paid-fg uppercase tracking-wider truncate';
+      ping.className = 'w-2 h-2 rounded-full bg-status-paid-fg';
+    }
+  }
+</script></main>
+
+</body></html>

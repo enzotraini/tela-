@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --color-surface-base: #0B0C0E;
+  --color-surface-raised: #121316;
+  --color-surface-card: #181A1F;
+  --color-surface-overlay: #1F2228;
+  --color-surface-container: #1f2022;
+  --color-surface-container-low: #1b1c1e;
+  --color-surface-container-high: #292a2c;
+  --color-surface-container-highest: #343537;
+  --color-surface-container-lowest: #0d0e10;
+  
+  --color-border-subtle: #2A2E37;
+  --color-border-muted: #1F2228;
+  
+  --color-primary-fixed: #d0f03b;
+  --color-primary-fixed-dim: #b4d418;
+  --color-primary-container: #d0f03b;
+  --color-on-primary-fixed: #181e00;
+  --color-on-primary: #2b3400;
+
+  --color-status-open-bg: #12231A;
+  --color-status-open-fg: #4ADE80;
+  --color-status-pending-bg: #2A2415;
+  --color-status-pending-fg: #FACC15;
+  --color-status-overdue-bg: #2E1517;
+  --color-status-overdue-fg: #F87171;
+  --color-status-paid-bg: #141F2E;
+  --color-status-paid-fg: #60A5FA;
+
+  --color-secondary: #c6c6c7;
+  --color-on-surface: #e3e2e5;
+  --color-on-surface-variant: #c6c9ae;
+}
+
+@theme {
+  --color-surface-base: #0B0C0E;
+  --color-surface-raised: #121316;
+  --color-surface-card: #181A1F;
+  --color-surface-overlay: #1F2228;
+  --color-surface-container: #1f2022;
+  --color-surface-container-low: #1b1c1e;
+  --color-surface-container-high: #292a2c;
+  --color-surface-container-highest: #343537;
+  --color-surface-container-lowest: #0d0e10;
+
+  --color-border-subtle: #2A2E37;
+  --color-border-muted: #1F2228;
+
+  --color-primary-fixed: #d0f03b;
+  --color-primary-fixed-dim: #b4d418;
+  --color-primary-container: #d0f03b;
+  --color-on-primary-fixed: #181e00;
+  --color-on-primary: #2b3400;
+
+  --color-status-open-bg: #12231A;
+  --color-status-open-fg: #4ADE80;
+  --color-status-pending-bg: #2A2415;
+  --color-status-pending-fg: #FACC15;
+  --color-status-overdue-bg: #2E1517;
+  --color-status-overdue-fg: #F87171;
+  --color-status-paid-bg: #141F2E;
+  --color-status-paid-fg: #60A5FA;
+
+  --color-secondary: #c6c6c7;
+  --color-on-surface: #e3e2e5;
+  --color-on-surface-variant: #c6c9ae;
+
+  --font-headline: "Geist", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-numeric: "Geist", monospace, sans-serif;
+}
+
+/* Base resets & typography */
+html, body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0B0C0E;
+  color: #e3e2e5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-geist {
+  font-family: "Geist", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbar hiding for clean app experience */
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Material symbols utility */
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}

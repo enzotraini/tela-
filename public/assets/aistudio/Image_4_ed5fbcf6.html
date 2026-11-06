@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="pt-BR"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Inter:wght@100..900&display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-secondary-fixed-variant": "#454747", "surface-overlay": "#1F2228", "primary-fixed": "#d0f03b", "outline-variant": "#454934", "inverse-on-surface": "#303033", "border-subtle": "#2A2E37", "on-primary-fixed": "#181e00", "tertiary-fixed-dim": "#c1c6d7", "primary-fixed-dim": "#b4d418", "error": "#ffb4ab", "on-background": "#e3e2e5", "on-error-container": "#ffdad6", "on-surface": "#e3e2e5", "surface-card": "#181A1F", "secondary-fixed-dim": "#c6c6c7", "surface-container-highest": "#343537", "on-primary": "#2b3400", "status-open-bg": "#12231A", "on-tertiary-container": "#5e6473", "background": "#121315", "on-error": "#690005", "border-muted": "#1F2228", "surface-bright": "#38393b", "inverse-primary": "#556500", "status-overdue-fg": "#F87171", "primary": "#ffffff", "surface-container-low": "#1b1c1e", "surface-container-high": "#292a2c", "secondary-container": "#454747", "surface-dim": "#121315", "on-primary-fixed-variant": "#3f4c00", "error-container": "#93000a", "on-tertiary-fixed-variant": "#414754", "on-secondary-fixed": "#1a1c1c", "on-tertiary-fixed": "#151c28", "on-primary-container": "#5a6b00", "surface-container-lowest": "#0d0e10", "secondary": "#c6c6c7", "inverse-surface": "#e3e2e5", "status-pending-fg": "#FACC15", "tertiary-container": "#dde2f3", "on-secondary-container": "#b4b5b5", "status-overdue-bg": "#2E1517", "status-paid-bg": "#141F2E", "surface": "#121315", "status-pending-bg": "#2A2415", "on-surface-variant": "#c6c9ae", "surface-base": "#0B0C0E", "status-open-fg": "#4ADE80", "on-tertiary": "#2a303d", "surface-variant": "#343537", "tertiary-fixed": "#dde2f3", "surface-container": "#1f2022", "on-secondary": "#2f3131", "outline": "#90937b", "surface-tint": "#b4d418", "secondary-fixed": "#e2e2e2", "status-paid-fg": "#60A5FA", "tertiary": "#ffffff", "surface-raised": "#121316", "primary-container": "#d0f03b" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin-desktop": "2.5rem", "space-xl": "1.5rem", "gutter-desktop": "1.5rem", "space-sm": "0.5rem", "space-md": "0.75rem", "space-lg": "1rem", "margin": "1rem", "gutter": "0.75rem", "space-xs": "0.25rem" }, "fontFamily": { "headline-sm": ["Geist"], "label-numeric": ["Geist"], "label-badge": ["Geist"], "body-lg": ["Inter"], "headline-lg": ["Geist"], "headline-md": ["Geist"], "body-sm": ["Inter"], "label-meta": ["Inter"], "body-md": ["Inter"], "headline-xl": ["Geist"], "headline-xl-mobile": ["Geist"] }, "fontSize": { "headline-sm": ["16px", { "lineHeight": "20px", "letterSpacing": "-0.01em", "fontWeight": "500" }], "label-numeric": ["18px", { "lineHeight": "22px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-badge": ["11px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "600" }], "body-lg": ["16px", { "lineHeight": "24px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "headline-lg": ["24px", { "lineHeight": "28px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "headline-md": ["20px", { "lineHeight": "24px", "letterSpacing": "-0.015em", "fontWeight": "500" }], "body-sm": ["12px", { "lineHeight": "16px", "letterSpacing": "0.01em", "fontWeight": "400" }], "label-meta": ["11px", { "lineHeight": "14px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-xl": ["36px", { "lineHeight": "40px", "letterSpacing": "-0.03em", "fontWeight": "600" }], "headline-xl-mobile": ["28px", { "lineHeight": "32px", "letterSpacing": "-0.025em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100%;margin:0;padding:0;}body{overscroll-behavior:none;background-color:#0B0C0E;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface-base font-body-md text-body-md text-on-surface flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface-base/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.4)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-md"><img alt="BLACKCAR Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WmT2MCDNba0vQHsnzZlviLAwwie6HyZGFkKc8-f_zabSluK8YDsGbv-00kFxZj6oPMQFxeScKxRF9wDnUSBOwFHe7_rh06F8mGc2CQRPLfOnY5W1Vi9wOiXE4fjCgC7hKTdFy2C172zOGOXr5dmFTjlBK0HczR0yZcCW8DqmkAYeE76xKple8iGWci5b69ev_grfbUGPESjwaIXYhtivWfeuL2rs7dI10BAfNv9PxO"/><span class="text-headline-sm font-headline-sm uppercase tracking-wider text-primary hidden">BLACKCAR</span><h1 class="text-headline-sm font-headline-sm text-on-surface ml-space-xs">Owner Home</h1></div><div class="flex items-center gap-space-md"><button class="min-h-[44px] min-w-[44px] px-space-sm flex items-center justify-center text-body-sm font-body-sm text-secondary hover:text-primary transition-colors" type="button"><span class="mr-space-xs material-symbols-outlined text-[18px]">logout</span><span>Sair</span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full pt-16 pb-24 bg-surface-base"><div class="flex flex-col w-full px-margin pb-space-lg">
+<!-- Sub-header & Daily Greeting -->
+<section class="flex flex-col pt-space-md pb-space-md">
+<div class="flex items-center justify-between">
+<div>
+<span class="text-label-meta font-label-meta text-on-surface-variant uppercase tracking-wider">Segunda-feira, 03 nov</span>
+<h2 class="text-headline-xl-mobile font-headline-xl-mobile text-primary tracking-tight mt-space-xs">Visão geral do dia</h2>
+</div>
+<div class="flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-high">
+<span class="w-2 h-2 rounded-full bg-status-open-fg animate-pulse"></span>
+<span class="text-label-badge font-label-badge text-on-surface">Ao vivo</span>
+</div>
+</div>
+</section>
+<!-- Key Metrics Row (Scrollable / Balanced Compact Grid) -->
+<section class="flex flex-col gap-space-sm pt-space-xs pb-space-lg">
+<!-- Metric 1: Recebido Hoje -->
+<div class="bg-surface-card rounded-xl p-space-md flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="text-body-sm font-body-sm text-secondary">Recebido hoje</span>
+<span class="px-space-sm py-0.5 rounded-full bg-status-open-bg text-status-open-fg text-label-badge font-label-badge">
+          Liquidado
+        </span>
+</div>
+<div class="flex items-baseline justify-between mt-space-sm">
+<span class="text-headline-lg font-headline-lg text-primary tracking-tight">R$ 3.850,00</span>
+<span class="material-symbols-outlined text-[20px] text-status-open-fg">trending_up</span>
+</div>
+</div>
+<!-- 2-Column Split for Projected & Overdue -->
+<div class="grid grid-cols-2 gap-space-sm">
+<!-- Metric 2: A receber -->
+<div class="bg-surface-card rounded-xl p-space-md flex flex-col justify-between shadow-sm">
+<div class="flex items-center justify-between gap-1">
+<span class="text-body-sm font-body-sm text-secondary truncate">A receber</span>
+<span class="px-space-xs py-0.5 rounded-full bg-status-paid-bg text-status-paid-fg text-label-badge font-label-badge whitespace-nowrap">
+            Previsto
+          </span>
+</div>
+<div class="mt-space-md">
+<span class="text-label-numeric font-label-numeric text-primary block truncate">R$ 2.400,00</span>
+<span class="text-label-meta font-label-meta text-secondary mt-0.5 block">Hoje</span>
+</div>
+</div>
+<!-- Metric 3: Atrasado -->
+<div class="bg-surface-card rounded-xl p-space-md flex flex-col justify-between shadow-sm">
+<div class="flex items-center justify-between gap-1">
+<span class="text-body-sm font-body-sm text-secondary truncate">Atrasado</span>
+<span class="px-space-xs py-0.5 rounded-full bg-status-overdue-bg text-status-overdue-fg text-label-badge font-label-badge whitespace-nowrap">
+            Atrasado
+          </span>
+</div>
+<div class="mt-space-md">
+<span class="text-label-numeric font-label-numeric text-primary block truncate">R$ 1.950,00</span>
+<span class="text-label-meta font-label-meta text-status-overdue-fg mt-0.5 block">3 faturas</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Overdue Charges Section -->
+<section class="flex flex-col pt-space-xs">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<h3 class="text-headline-sm font-headline-sm text-primary">Cobranças Atrasadas</h3>
+<span class="text-body-sm font-body-sm text-secondary font-medium">(3)</span>
+</div>
+<button class="text-label-meta font-label-meta text-secondary hover:text-primary transition-colors flex items-center gap-0.5" type="button">
+<span>Filtrar</span>
+<span class="material-symbols-outlined text-[16px]">tune</span>
+</button>
+</div>
+<!-- Charges List (Min height 56px per row, tactile feedback) -->
+<div class="bg-surface-card rounded-xl overflow-hidden shadow-sm flex flex-col divide-y divide-border-muted" id="overdue-charges-container">
+<!-- Item 1 -->
+<div class="group flex items-center justify-between min-h-[58px] px-space-md py-space-sm hover:bg-surface-overlay active:bg-surface-overlay transition-colors cursor-pointer select-none" role="button" tabindex="0">
+<div class="flex flex-col min-w-0 pr-space-sm">
+<div class="flex items-center gap-space-xs mb-0.5">
+<span class="text-body-md font-body-md text-primary font-medium truncate">Marcos Silva</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface text-label-badge font-label-badge tracking-wider uppercase">BRA2E19</span>
+</div>
+<div class="flex items-center gap-space-xs text-label-meta font-label-meta text-secondary">
+<span>Vencimento</span>
+<span class="text-status-overdue-fg font-medium">31 out</span>
+<span class="text-border-subtle">•</span>
+<span>Locação semanal</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0 text-right">
+<div class="flex flex-col items-end">
+<span class="text-body-md font-body-md text-primary font-semibold">R$ 650,00</span>
+<span class="text-label-meta font-label-meta text-secondary">3 dias atrás</span>
+</div>
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="group flex items-center justify-between min-h-[58px] px-space-md py-space-sm hover:bg-surface-overlay active:bg-surface-overlay transition-colors cursor-pointer select-none" role="button" tabindex="0">
+<div class="flex flex-col min-w-0 pr-space-sm">
+<div class="flex items-center gap-space-xs mb-0.5">
+<span class="text-body-md font-body-md text-primary font-medium truncate">Juliana Mendes</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface text-label-badge font-label-badge tracking-wider uppercase">RQX9A44</span>
+</div>
+<div class="flex items-center gap-space-xs text-label-meta font-label-meta text-secondary">
+<span>Vencimento</span>
+<span class="text-status-overdue-fg font-medium">28 out</span>
+<span class="text-border-subtle">•</span>
+<span>Mensalidade</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0 text-right">
+<div class="flex flex-col items-end">
+<span class="text-body-md font-body-md text-primary font-semibold">R$ 700,00</span>
+<span class="text-label-meta font-label-meta text-secondary">6 dias atrás</span>
+</div>
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="group flex items-center justify-between min-h-[58px] px-space-md py-space-sm hover:bg-surface-overlay active:bg-surface-overlay transition-colors cursor-pointer select-none" role="button" tabindex="0">
+<div class="flex flex-col min-w-0 pr-space-sm">
+<div class="flex items-center gap-space-xs mb-0.5">
+<span class="text-body-md font-body-md text-primary font-medium truncate">Rodrigo Fontana</span>
+<span class="px-1.5 py-0.5 rounded bg-surface-container-high text-on-surface text-label-badge font-label-badge tracking-wider uppercase">GHJ3F20</span>
+</div>
+<div class="flex items-center gap-space-xs text-label-meta font-label-meta text-secondary">
+<span>Vencimento</span>
+<span class="text-status-overdue-fg font-medium">25 out</span>
+<span class="text-border-subtle">•</span>
+<span>Locação semanal</span>
+</div>
+</div>
+<div class="flex items-center gap-space-xs flex-shrink-0 text-right">
+<div class="flex flex-col items-end">
+<span class="text-body-md font-body-md text-primary font-semibold">R$ 600,00</span>
+<span class="text-label-meta font-label-meta text-secondary">9 dias atrás</span>
+</div>
+<span class="material-symbols-outlined text-[20px] text-secondary group-hover:text-primary transition-colors">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Quick action indicator for accounts tab -->
+<div class="flex items-center justify-between mt-space-md px-space-sm py-space-xs text-secondary">
+<span class="text-label-meta font-label-meta flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[16px] text-secondary">info</span>
+        Toque na cobrança para detalhes em Contas
+      </span>
+<span class="text-label-meta font-label-meta text-secondary">Somente leitura</span>
+</div>
+</section>
+<!-- Empty State Demo Preview (Micro card footer showing zero-state aesthetic) -->
+<section class="mt-space-lg pt-space-xs">
+<div class="bg-surface-container-low rounded-xl p-space-md flex items-center gap-space-md">
+<div class="w-10 h-10 rounded-full bg-surface-container-high flex items-center justify-center flex-shrink-0">
+<span class="material-symbols-outlined text-secondary text-[22px]">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="text-body-sm font-body-sm text-primary font-medium">Fluxo sob controle</span>
+<span class="text-label-meta font-label-meta text-secondary">Quando quitadas, as pendências desaparecem automaticamente.</span>
+</div>
+</div>
+</section>
+</div>
+<script>
+  // Quick interaction handler for rows directing smoothly
+  document.querySelectorAll('#overdue-charges-container > div').forEach(row => {
+    row.addEventListener('click', () => {
+      // Visual feedback tap state
+      row.classList.add('bg-surface-container-highest');
+      setTimeout(() => {
+        row.classList.remove('bg-surface-container-highest');
+      }, 150);
+    });
+  });
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-raised/85 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.6)]" data-active-classes="text-primary bg-surface-overlay/80 font-medium"><div class="flex justify-center items-center gap-space-lg h-16 px-margin max-w-[390px] mx-auto"><a class="flex-1 flex items-center justify-center gap-space-xs min-h-[44px] px-space-md py-space-xs rounded-full text-secondary hover:text-primary transition-all" data-path="inicio" href="#"><span class="material-symbols-outlined text-[20px]">home</span><span class="text-body-sm font-body-sm tracking-wide">Início</span></a><a class="flex-1 flex items-center justify-center gap-space-xs min-h-[44px] px-space-md py-space-xs rounded-full text-secondary hover:text-primary transition-all" data-path="contas" href="#"><span class="material-symbols-outlined text-[20px]">account_balance_wallet</span><span class="text-body-sm font-body-sm tracking-wide">Contas</span></a></div></nav></body></html>
